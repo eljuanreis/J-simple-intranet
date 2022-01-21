@@ -1,0 +1,46 @@
+
+.body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background: linear-gradient(90deg, #040305, #261d26, #4a303f, #734352, #9d595f, #c47266, #e69169, #ffb56b);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 450px;
+  padding: 10px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: 10px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.destaque{
+  background-color: #ffb56b; 
+  padding: 4px;
+  border-radius: 10px;
+}
+
+
+.destaqueBotao{
+  background-color: #ffb56b; 
+  border-radius: 10px;
+}
