@@ -27,11 +27,13 @@ As tecnologias usaadas nas construção do sistema
 - Requisitos: Composer/Laravel 8/PHP (>= PHP 7.4.22)
 1. Clone o repositório usando: git clone
 
-2. Crie um banco de dados e faça a configuração de acesso ao banco de dados no arquivo .env (variáveis de ambiente)
+2. Instale as dependências utilizando o: `composer install` (dentro da pasta do projeto)
 
-3. Acesse o projeto via terminal/console e use o: `php artisan migrate` para geração das tabelas dentro do banco de dados
+3. Crie um banco de dados e faça a configuração de acesso ao banco de dados no arquivo .env (variáveis de ambiente)
 
-4. Acesse o projeto via terminal/console e use o: `php artisan db:seed` para geração dos usuários iniciais.
+4. Acesse o projeto via terminal/console e use o: `php artisan migrate` para geração das tabelas dentro do banco de dados
+
+5. Acesse o projeto via terminal/console e use o: `php artisan db:seed` para geração dos usuários iniciais.
 
 ##### Usuários iniciais:
 - Administrador
